@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Alcubierre";
+    src: url(Alcubierre.otf) format("truetype");
+}
+
+body {
+    background-color: #c68383;
+    font-family: "Alcubierre";
+}
+
+* {
+    font-family: "Alcubierre";
+}
+
+input {
+    width: 400px;
+    height: 100px;
+    border-style: none;
+    border-radius: 15px 5px 15px 5px;
+    font-size: 30px;
+    padding: 0 10px 0 10px;
+}
+
+label {
+    font-size: 30px;
+    color: #3e3e3e;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    width: 160px;
+    height: 100px;
+    color: #3e3e3e;
+    font-family: 'Alcubierre', sans-serif;
+    font-size: 30px;
+    background-color: #d6e9f5;
+    border-radius: 15px 5px 15px 5px;
+    margin-left: 15px;
+    border-style: none;
+}
