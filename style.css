@@ -3,27 +3,16 @@
     src: url(Alcubierre.otf) format("truetype");
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Alcubierre";
+}
+
 body {
     background-color: #c68383;
-    font-family: "Alcubierre";
-}
-
-* {
-    font-family: "Alcubierre";
-}
-
-input {
-    width: 400px;
-    height: 100px;
-    border-style: none;
-    border-radius: 15px 5px 15px 5px;
+    font-family: "Alcubierre", sans-serif;
     font-size: 30px;
-    padding: 0 10px 0 10px;
-}
-
-label {
-    font-size: 30px;
-    color: #3e3e3e;
 }
 
 form {
@@ -33,12 +22,25 @@ form {
     transform: translate(-50%, -50%);
 }
 
-button {
-    width: 160px;
-    height: 100px;
+label {
     color: #3e3e3e;
-    font-family: 'Alcubierre', sans-serif;
-    font-size: 30px;
+}
+
+input {
+    width: 13em;
+    height: 4em;
+    border-style: none;
+    border-radius: 15px 5px 15px 5px;
+    font-size: inherit;
+    padding: 0 10px 0 10px;
+}
+
+button {
+    width: 5em;
+    height: 4em;
+    color: #3e3e3e;
+    font-family: inherit;
+    font-size: inherit;
     background-color: #d6e9f5;
     border-radius: 15px 5px 15px 5px;
     margin-left: 15px;
