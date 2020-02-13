@@ -2,22 +2,20 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hexbox</title>
         <link type="text/css" rel="stylesheet" href="style.css">
+        <link type="text/css" rel="stylesheet" href="media-queries.css">
         <script src="script.js"></script>
     </head>
     <body>
         <form action="javascript:changeColor()">
-            <label>#</label>
-            <input type="text" name="color" id="color-input" placeholder="Please enter the hex color here">
+            <label>
+                #
+                <input type="text" name="color" id="color-input" placeholder="Please enter the hex color here">
+            </label>
+            
             <button type="submit">Submit</button>
         </form>
     </body>
 </html>
-
-<!--
-napisz stronę składająca się z pola tekstowego i przycisku. 
-po wcisnieciu przycisku kolor tła strony
-ma zmienić się na kolor o hex podanym w polu tekstowym. 
-w przypadku podana nieprawodłowego hexa kolor tła strony
-ma zmienić się na różowy.
--->

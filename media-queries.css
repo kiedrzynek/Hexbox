@@ -1,0 +1,44 @@
+@media only screen and (min-width: 1600px) {
+    body {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    body {
+        font-size: 28px;
+    }
+
+    form {
+        width: 70%;
+    }
+
+    input {
+        width: 65%;
+    }
+
+    button {
+        margin-left: 1px;
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        font-size: 21px;
+    }
+
+    form {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    body {
+        font-size: 17px;
+    }
+
+    form {
+        width: 95%;
+    }
+}
